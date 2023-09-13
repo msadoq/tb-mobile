@@ -1,9 +1,9 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/widgets.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/modules/alarm/alarms_page.dart';
-import 'package:thingsboard_app/modules/main/main_page.dart';
+import '/config/routes/router.dart';
+import '/core/context/tb_context.dart';
+import '/modules/alarm/alarms_page.dart';
+import '/modules/main/main_page.dart';
 
 class AlarmRoutes extends TbRoutes {
   late var alarmsHandler = Handler(

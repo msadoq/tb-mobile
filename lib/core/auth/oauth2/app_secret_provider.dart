@@ -1,4 +1,4 @@
-import 'package:thingsboard_app/constants/app_constants.dart';
+import '/constants/app_constants.dart';
 
 abstract class AppSecretProvider {
   Future<String> getAppSecret();

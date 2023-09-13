@@ -4,10 +4,10 @@ import 'package:universal_platform/universal_platform.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/modules/dashboard/main_dashboard_page.dart';
-import 'package:thingsboard_app/widgets/two_page_view.dart';
+import '/config/routes/router.dart';
+import '/core/context/tb_context.dart';
+import '/modules/dashboard/main_dashboard_page.dart';
+import '/widgets/two_page_view.dart';
 
 import 'config/themes/tb_theme.dart';
 import 'generated/l10n.dart';

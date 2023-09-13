@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/core/entity/entities_base.dart';
+import '/core/context/tb_context.dart';
+import '/core/context/tb_context_widget.dart';
+import '/core/entity/entities_base.dart';
 
 import 'tenants_list.dart';
 

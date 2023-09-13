@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/modules/dashboard/dashboard.dart';
-import 'package:thingsboard_app/widgets/tb_app_bar.dart';
+import '/core/context/tb_context.dart';
+import '/core/context/tb_context_widget.dart';
+import '/modules/dashboard/dashboard.dart';
+import '/widgets/tb_app_bar.dart';
 
 class MainDashboardPageController {
   DashboardController? _dashboardController;

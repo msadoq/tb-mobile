@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/widgets/tb_progress_indicator.dart';
+import '/core/context/tb_context.dart';
+import '/core/context/tb_context_widget.dart';
+import '/widgets/tb_progress_indicator.dart';
 
 class ThingsboardInitApp extends TbPageWidget {
   ThingsboardInitApp(TbContext tbContext, {Key? key})

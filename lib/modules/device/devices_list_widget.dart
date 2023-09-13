@@ -1,7 +1,7 @@
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/core/entity/entities_base.dart';
-import 'package:thingsboard_app/core/entity/entities_list_widget.dart';
-import 'package:thingsboard_app/modules/device/devices_base.dart';
+import '/core/context/tb_context.dart';
+import '/core/entity/entities_base.dart';
+import '/core/entity/entities_list_widget.dart';
+import '/modules/device/devices_base.dart';
 import 'package:thingsboard_client/thingsboard_client.dart';
 
 class DevicesListWidget extends EntitiesListWidget<EntityData, EntityDataQuery>

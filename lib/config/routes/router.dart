@@ -1,18 +1,18 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
-import 'package:thingsboard_app/core/auth/auth_routes.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/core/init/init_routes.dart';
-import 'package:thingsboard_app/modules/alarm/alarm_routes.dart';
-import 'package:thingsboard_app/modules/asset/asset_routes.dart';
-import 'package:thingsboard_app/modules/audit_log/audit_logs_routes.dart';
-import 'package:thingsboard_app/modules/customer/customer_routes.dart';
-import 'package:thingsboard_app/modules/dashboard/dashboard_routes.dart';
-import 'package:thingsboard_app/modules/device/device_routes.dart';
-import 'package:thingsboard_app/modules/home/home_routes.dart';
-import 'package:thingsboard_app/modules/profile/profile_routes.dart';
-import 'package:thingsboard_app/modules/tenant/tenant_routes.dart';
-import 'package:thingsboard_app/utils/ui_utils_routes.dart';
+import '/core/auth/auth_routes.dart';
+import '/core/context/tb_context.dart';
+import '/core/init/init_routes.dart';
+import '/modules/alarm/alarm_routes.dart';
+import '/modules/asset/asset_routes.dart';
+import '/modules/audit_log/audit_logs_routes.dart';
+import '/modules/customer/customer_routes.dart';
+import '/modules/dashboard/dashboard_routes.dart';
+import '/modules/device/device_routes.dart';
+import '/modules/home/home_routes.dart';
+import '/modules/profile/profile_routes.dart';
+import '/modules/tenant/tenant_routes.dart';
+import '/utils/ui_utils_routes.dart';
 
 class ThingsboardAppRouter {
   final router = FluroRouter();

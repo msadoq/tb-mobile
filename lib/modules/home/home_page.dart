@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:thingsboard_app/constants/assets_path.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/modules/dashboard/dashboard.dart'
+import '/constants/assets_path.dart';
+import '/core/context/tb_context.dart';
+import '/core/context/tb_context_widget.dart';
+import '/modules/dashboard/dashboard.dart'
     as dashboardUi;
-import 'package:thingsboard_app/modules/dashboard/dashboards_grid.dart';
-import 'package:thingsboard_app/modules/tenant/tenants_widget.dart';
-import 'package:thingsboard_app/widgets/tb_app_bar.dart';
+import '/modules/dashboard/dashboards_grid.dart';
+import '/modules/tenant/tenants_widget.dart';
+import '/widgets/tb_app_bar.dart';
 import 'package:thingsboard_client/thingsboard_client.dart';
 
 class HomePage extends TbContextWidget {

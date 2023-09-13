@@ -1,9 +1,9 @@
 import 'package:fluro/fluro.dart';
 import 'package:flutter/widgets.dart';
-import 'package:thingsboard_app/config/routes/router.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/modules/dashboard/dashboards_page.dart';
-import 'package:thingsboard_app/modules/dashboard/fullscreen_dashboard_page.dart';
+import '/config/routes/router.dart';
+import '/core/context/tb_context.dart';
+import '/modules/dashboard/dashboards_page.dart';
+import '/modules/dashboard/fullscreen_dashboard_page.dart';
 
 import 'dashboard_page.dart';
 

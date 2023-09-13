@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/core/entity/entity_details_page.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
+import '/core/context/tb_context.dart';
+import '/core/entity/entity_details_page.dart';
+import '/generated/l10n.dart';
 import 'package:thingsboard_client/thingsboard_client.dart';
 
 class AssetDetailsPage extends EntityDetailsPage<AssetInfo> {

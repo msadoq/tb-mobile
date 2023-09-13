@@ -6,11 +6,11 @@ import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:form_builder_validators/form_builder_validators.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-import 'package:thingsboard_app/constants/assets_path.dart';
-import 'package:thingsboard_app/core/context/tb_context.dart';
-import 'package:thingsboard_app/core/context/tb_context_widget.dart';
-import 'package:thingsboard_app/generated/l10n.dart';
-import 'package:thingsboard_app/widgets/tb_progress_indicator.dart';
+import '/constants/assets_path.dart';
+import '/core/context/tb_context.dart';
+import '/core/context/tb_context_widget.dart';
+import '/generated/l10n.dart';
+import '/widgets/tb_progress_indicator.dart';
 import 'package:thingsboard_client/thingsboard_client.dart';
 
 import 'login_page_background.dart';
